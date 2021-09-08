@@ -1,8 +1,8 @@
 Package.describe({
   name: "excnish:astronomy",
-  version: "2.7.3",
+  version: "2.7.3_1",
   summary: "Model layer for Meteor",
-  git: "https://github.com/jagi/meteor-astronomy.git"
+  git: "https://github.com/dnish/meteor-astronomy"
 });
 
 Npm.depends({
@@ -41,7 +41,7 @@ Package.onTest(function(api) {
       "insecure",
       "mongo",
       "ejson",
-      "jagi:astronomy@2.5.8"
+      "excnish:astronomy@2.5.8"
     ],
     ["client", "server"]
   );
